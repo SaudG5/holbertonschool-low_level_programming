@@ -5,7 +5,7 @@
  * main - take a random number and determine if the last digit
  * is greater than 5, less than 6, or equal to 0
  *
- * Return - always 0 with messages
+ * Return: always 0 with messages
  */
 int main(void)
 {
