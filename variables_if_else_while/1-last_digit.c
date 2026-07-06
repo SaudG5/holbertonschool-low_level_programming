@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* main - take random number and detrmain if the last digit its greater than 5 or less than 5 or equal 0
