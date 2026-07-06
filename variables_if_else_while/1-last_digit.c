@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - take random number and detrmain if the last digit its greater than 5 or less than 5 or equal 0
+/* 
+ * main - take random number and detrmain if the last digit 
+ * is greater than 5 or less than 6 or equal 0
  *
- *return - alwayes 0 with massages */
+ *return - alwayes 0 with massages
+ */
 int main(void)
 {
 	int n;
