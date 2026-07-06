@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - determine if the last digit of a random number is greater than 5, less than 6, or 0
+/**
+ * main - determine if the last digit of a random number 
+ * is greater than 5, less than 6, or 0
  *
  * Return: always 0 with messages
  */
