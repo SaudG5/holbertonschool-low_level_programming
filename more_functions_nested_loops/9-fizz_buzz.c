@@ -27,3 +27,14 @@ void fizz_buzz(void)
 	}
 	printf("\n");
 }
+
+/**
+ * main - entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
