@@ -42,8 +42,17 @@ int main(void)
 			scanf("%d", &A);
 			printf("B: \n");
 			scanf("%d", &B);
-						printf("Result: %d\n", A * B);
-				}
+			printf("Result: %d\n", A * B);
+		}
+		else if (choice == 4)
+		{
+			printf("A: \n");
+			scanf("%d", &A);
+			printf("B: \n");
+			scanf("%d", &B);
+			if (B == 0)
+				printf("Error: division by zero");
+			printf("Result: %d\n", A / B);
 	}
 	return (0);
 }
