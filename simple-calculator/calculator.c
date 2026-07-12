@@ -27,6 +27,7 @@ int main(void)
 			printf("B: \n");
 			scanf("%d", &B);
 			printf("Result: %d\n", A + B);
+		}
 	}
 	return (0);
 }
