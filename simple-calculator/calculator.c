@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	while (True)
+	while (1)
 	{
 		int choice;
 
@@ -18,7 +18,8 @@ int main(void)
 			printf("Bye!\n");
 			return (0);
 		}
-		else if (choice > 4 && choice < 0)
+		else if (choice > 4 || choice <= 0)
 			printf("Invalid choice");
 	}
+	return (0);
 }
