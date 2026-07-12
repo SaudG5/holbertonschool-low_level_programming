@@ -36,5 +36,6 @@ int main(void)
 			scanf("%d", &B);
 			printf("Result: %d\n", A - B);
 		}
+	}
 	return (0);
 }
