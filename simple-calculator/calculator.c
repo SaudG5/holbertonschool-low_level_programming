@@ -53,6 +53,7 @@ int main(void)
 			if (B == 0)
 				printf("Error: division by zero");
 			printf("Result: %d\n", A / B);
+		}
 	}
 	return (0);
 }
