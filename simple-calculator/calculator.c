@@ -3,7 +3,7 @@ int main(void)
 {
 	while (1)
 	{
-		int choice;
+		int choice, A, B;
 
 		printf("Welcome to the simple calcutar, which operation do you want?\n");
 		printf("1 Add\n");
@@ -20,6 +20,15 @@ int main(void)
 		}
 		else if (choice > 4 || choice <= 0)
 			printf("Invalid choice");
+		else if (choice == 1)
+		{
+			printf("A: \n");
+			scanf("%d", &A);
+			printf("B: \n");
+			scanf("%d", &B);
+			int add = A + B;
+
+			printf("Result: %d\n", add);
 	}
 	return (0);
 }
