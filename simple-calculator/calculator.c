@@ -26,9 +26,7 @@ int main(void)
 			scanf("%d", &A);
 			printf("B: \n");
 			scanf("%d", &B);
-			int add = A + B;
-
-			printf("Result: %d\n", add);
+			printf("Result: %d\n", A + B);
 	}
 	return (0);
 }
