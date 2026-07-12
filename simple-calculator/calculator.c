@@ -28,6 +28,13 @@ int main(void)
 			scanf("%d", &B);
 			printf("Result: %d\n", A + B);
 		}
-	}
+		else if (choice == 2)
+		{
+			printf("A: \n");
+			scanf("%d", &A);
+			printf("B: \n");
+			scanf("%d", &B);
+			printf("Result: %d\n", A - B);
+		}
 	return (0);
 }
