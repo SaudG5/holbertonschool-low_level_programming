@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.>
 /**
  * reset_to_98 - update value in address *n
  *@n: the address
@@ -8,5 +8,4 @@
 void reset_to_98(int *n)
 {
 	*n = 98;
-	return ;
 }
