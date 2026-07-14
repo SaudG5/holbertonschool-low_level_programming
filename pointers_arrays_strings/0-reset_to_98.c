@@ -1,9 +1,10 @@
-#include <stdio.>
+#include "main.h"
+
 /**
  * reset_to_98 - update value in address *n
- *@n: the address
+ * @n: the address
  *
- * Return: 0
+ * Return: void
  */
 void reset_to_98(int *n)
 {
