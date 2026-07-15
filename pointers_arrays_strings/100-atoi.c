@@ -1,11 +1,3 @@
-#include "main.h"
-
-/**
- * _atoi - converts a string to an integer
- * @s: the string to convert
- *
- * Return: the converted integer, or 0 if no digits are found
- */
 int _atoi(char *s)
 {
 	int i = 0;
@@ -16,8 +8,6 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			sign *= -1;
-		else if (s[i] != '+')
-			sign = 1;
 		i++;
 	}
 
