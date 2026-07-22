@@ -1,5 +1,6 @@
 #include "dog.h"
-#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * free_dog - frees a dog
  * @d: pointer to the struct dog to be freed
@@ -13,6 +14,6 @@ void free_dog(dog_t *d)
 		return;
 
 	free(d->name);
-	free(d->age);
 	free(d->owner);
+	free(d);
 }
