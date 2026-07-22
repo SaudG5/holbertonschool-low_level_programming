@@ -10,9 +10,10 @@
  * Description: this structure groups together the basic
  * information needed to describe a dog, used across the program.
  */
-typedef struct dog{
+typedef struct dog
+{
 	char *name;
-	float *age;
+	float age;
 	char *owner;
-}Dog
-#endif
+} Dog;
+#endif /* DOG_H */
