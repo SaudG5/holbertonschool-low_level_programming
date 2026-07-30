@@ -25,4 +25,3 @@ void print_string(va_list args);
 void print_all(const char * const format, ...);
 
 #endif
-#endif
