@@ -1,3 +1,15 @@
-0xF2EF340B
-0x449BC842
-0x65735AA6
+Breakpoint 1 at 0x1463: file source.c, line 81.
+Breakpoint 2 at 0x149a: file source.c, line 86.
+Breakpoint 3 at 0x1531: file source.c, line 103.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Breakpoint 1, derive_key (user_pin=123456) at source.c:81
+81          x ^= mix32(user_pin ^ 0x2468ACE0u);
+$1 = 0xf2ef340b
+Breakpoint 2, derive_key (user_pin=123456) at source.c:86
+86          return x;
+$2 = 0x449bc842
+Breakpoint 3, compute_target (k=1151060034) at source.c:103
+103             acc += 0x7F4A7C15u;
+99          for (i = 0; i < 8u; i++) {
+$3 = 0x65735aa6
